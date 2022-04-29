@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>NETFLIX</title>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="title">
+                NET<span>FLIX</span>
+            </h1>
+            <h3 id="description">
+                Thank you for signing up to Netflix.Tell me about yourself.
+            </h3>
+        </header>
+        <div id="survey-form-container">
+            <div id="survey-form">
+                <form action="result.html" method="GET" target="_blank">
+                    <div id="input-box">
+                        <label for="name">Name</label>
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Please enter your name">
+                    </div>
+                    <div class="input-box">
+                        <label for="age">Age</label>
+                        <br>
+                        <input type="number" name="age" id="age" placeholder="Please enter your age">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="Please enter your email address">
+                    </div>
+                    <div class="input-box">
+                        <label for="content">Content Type</label>
+                        <br>
+                        <select name="content" id="dropdown">
+                            <option value="movie">Movie</option>
+                            <option value="series">Series</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label for="movie">Movie Type</label>
+                        <br>
+                        <input type="checkbox" name="movie" id="first-check" value="Comedy" checked>
+                        <label for="first-check">Comedy</label>
+                        <br>
+                        <input type="checkbox" name="movie" id="second-check" value="Action">
+                        <label for="second-check">Action</label>
+                        <br>
+                        <input type="checkbox" name="movie" id="third-check" value="Romance" checked>
+                        <label for="third-check">Romance</label>
+                    </div>
+                    <div class="input-box">
+                        <label for="gender">Gender</label>
+                        <br>
+                        <input type="radio" name="gender" id="first-radio" value="Male">
+                        <label for="first-radio">Male</label>
+                        <br>
+                        <input type="radio" name="gender" id="second-radio" value="Female">
+                        <label for="second-radio">Female</label>
+                        <br>
+                        <input type="radio" name="gender" id="third-radio" value="Other">
+                        <label for="third-radio">Other</label>
+                    </div>
+                    <div class="input-box">
+                        <label for="feedback">Feedback</label>
+                        <br>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Any comment"></textarea>
+                    </div>
+                    <div id="form-submit">
+                        <input type="submit" value="SEND" id="form-button">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
