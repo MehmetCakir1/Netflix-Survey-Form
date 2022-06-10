@@ -14,3 +14,5 @@ In this project I used:
 * CSS Properties for Texts-Font Families-Links
 
 * Favicon image
+
+* Mobile-friendly design
