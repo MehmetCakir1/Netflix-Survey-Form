@@ -10,8 +10,9 @@ body{
     color:white;
     
 }
+//--------------------------------------OUTER CONTAINER----------------------------------------------------
 #container{
-    max-width: 77.5rem;
+    max-width: 90vw;
     background-color: rgba(0,0,0,0.3);
     height: 65rem;
     margin: auto;
@@ -23,18 +24,21 @@ body{
     font-size: 3.1rem;
     font-family: 'Bowlby One SC', cursive;
     letter-spacing: 0.313rem;
+     text-align: center;
 }
 span{
     color:red;
 }
 #description{
     font-family: 'Sorts Mill Goudy', serif;
+     text-align: center;
 }header{
     text-align: center;
 }
+//--------------------------------------------FORM------------------------------------------------
 #survey-form-container{
-    width: 32rem;
-    /* height: 56rem; */
+    width: 90vw;
+    max-width:32rem;
     background-color: rgba(0,0,0,0.8);
     margin: 1rem auto 0rem;
     padding: 0.6rem 2.5rem;
