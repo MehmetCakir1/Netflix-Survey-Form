@@ -13,8 +13,7 @@ body{
 //--------------------------------------OUTER CONTAINER----------------------------------------------------
 #container{
     width: 90vw;
-/*     background-color: rgba(0,0,0,0.3); */
-    background-color:crimson;
+    background-color: rgba(0,0,0,0.3);
     height: 65rem;
     margin: auto;
     margin-top: 2rem;
