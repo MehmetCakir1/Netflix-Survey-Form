@@ -8,34 +8,34 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
-    
+
+  /*--------------------------------------------------OUTER CONTAINER-----------------------------------------*/
 }
-//--------------------------------------OUTER CONTAINER----------------------------------------------------
 #container{
     width: 90vw;
     background-color: rgba(0,0,0,0.3);
     height: 65rem;
     margin: auto;
     margin-top: 2rem;
-    
 }
 #title{
     color:white;
     font-size: 3.1rem;
     font-family: 'Bowlby One SC', cursive;
     letter-spacing: 0.313rem;
-     text-align: center;
+    text-align: center;
 }
 span{
     color:red;
 }
 #description{
     font-family: 'Sorts Mill Goudy', serif;
-     text-align: center;
+    text-align: center;
 }header{
     text-align: center;
 }
-//--------------------------------------------FORM------------------------------------------------
+
+/*----------------------------------------FORM--------------------------------------------------------------*/
 #survey-form-container{
     width: 90vw;
     max-width: 32rem;
