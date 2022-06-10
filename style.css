@@ -12,7 +12,7 @@ body{
 }
 //--------------------------------------OUTER CONTAINER----------------------------------------------------
 #container{
-    max-width: 90vw;
+    width: 90vw;
     background-color: rgba(0,0,0,0.3);
     height: 65rem;
     margin: auto;
